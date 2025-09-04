@@ -1,0 +1,29 @@
+{
+  "name": "scriptbloxjs",
+  "version": "1.0.0",
+  "description": "Node.js binding for ScriptBlox's API",
+  "keywords": [
+    "roblox",
+    "scriptblox",
+    "script",
+    "exploit",
+    "hack"
+  ],
+  "homepage": "https://github.com/xbcq1490/ScriptBloxJs#readme",
+  "bugs": {
+    "url": "https://github.com/xbcq1490/ScriptBloxJs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xbcq1490/ScriptBloxJs.git"
+  },
+  "license": "MIT",
+  "author": "xbcq",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/index.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  }
+}
