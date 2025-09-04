@@ -9,13 +9,13 @@
     "exploit",
     "hack"
   ],
-  "homepage": "https://github.com/xbcq1490/ScriptBloxJs#readme",
+  "homepage": "https://github.com/xbcq1490/ScriptBlox.Js#readme",
   "bugs": {
-    "url": "https://github.com/xbcq1490/ScriptBloxJs/issues"
+    "url": "https://github.com/xbcq1490/ScriptBlox.Js/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xbcq1490/ScriptBloxJs.git"
+    "url": "git+https://github.com/xbcq1490/ScriptBlox.Js.git"
   },
   "license": "MIT",
   "author": "xbcq",
