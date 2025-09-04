@@ -13,26 +13,26 @@ async function main() {
         patched: false,
         mode: ScriptFilters.mode.free
     })
-    console.log(scripts.result.scripts)
+    console.log("GetScripts:", scripts.result.scripts)
 
     const foundScript = await api.findScript(scripts.result.scripts[0]._id);
-    console.log(foundScript.script)
+    console.log("FindScript:", foundScript.script)
 
     const scriptSource = await api.getScriptSource(scripts.result.scripts[0]._id);
-    console.log(scriptSource)
+    console.log("GetScriptSource:", scriptSource)
 
     const searchResults = await api.findScripts("99 nights")
-    console.log(searchResults.result.scripts)
+    console.log("FindScripts:", searchResults.result.scripts)
 
     const trendingScripts = await api.getTrendingScripts()
-    console.log(trendingScripts.result.scripts)
+    console.log("GetTrendingScripts:", trendingScripts.result.scripts)
 
     // for executors
 
     const executors = await api.getExecutorList()
-    console.log(executors)
+    console.log("GetExecutorList:", executors)
 
-    api.modifyExecutor({api_key = "idk what ur api key is"})
+    //api.modifyExecutor({api_key: "idk what ur api key is"})
 }
 
 main();
